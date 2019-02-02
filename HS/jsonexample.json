@@ -1,0 +1,369 @@
+{
+  "range_start": "2016-06-01T00:00:00Z",
+  "range_end": "2016-07-01T00:00:00Z",
+  "unique_users": 38,
+  "total_games": 7950,
+  "games": [
+    {
+      "user_hash": "853B97737D848AE2F22D60931C888CB3",
+      "region": "Europe",
+      "id": 33262529,
+      "mode": "ranked",
+      "hero": "Warrior",
+      "hero_deck": "Dragon",
+      "opponent": "Shaman",
+      "opponent_deck": "Midrange",
+      "coin": true,
+      "result": "loss",
+      "duration": 761,
+      "rank": 6,
+      "legend": null,
+      "note": null,
+      "added": "2016-06-28T17:57:45Z",
+      "card_history": [
+        {
+          "player": "opponent",
+          "turn": 1,
+          "card": {
+            "id": "LOE_018",
+            "name": "Tunnel Trogg",
+            "mana": 1
+          }
+        },
+        {
+          "player": "me",
+          "turn": 1,
+          "card": {
+            "id": "GAME_005",
+            "name": "The Coin",
+            "mana": null
+          }
+        },
+        {
+          "player": "me",
+          "turn": 1,
+          "card": {
+            "id": "CS2_106",
+            "name": "Fiery War Axe",
+            "mana": 2
+          }
+        },
+        {
+          "player": "me",
+          "turn": 2,
+          "card": {
+            "id": "OG_314",
+            "name": "Blood To Ichor",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 3,
+          "card": {
+            "id": "EX1_248",
+            "name": "Feral Spirit",
+            "mana": 3
+          }
+        },
+        {
+          "player": "me",
+          "turn": 3,
+          "card": {
+            "id": "LOE_022",
+            "name": "Fierce Monkey",
+            "mana": 3
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 4,
+          "card": {
+            "id": "EX1_565",
+            "name": "Flametongue Totem",
+            "mana": 2
+          }
+        },
+        {
+          "player": "me",
+          "turn": 4,
+          "card": {
+            "id": "NEW1_011",
+            "name": "Kor'kron Elite",
+            "mana": 4
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 5,
+          "card": {
+            "id": "AT_052",
+            "name": "Totem Golem",
+            "mana": 2
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 5,
+          "card": {
+            "id": "OG_028",
+            "name": "Thing from Below",
+            "mana": 6
+          }
+        },
+        {
+          "player": "me",
+          "turn": 5,
+          "card": {
+            "id": "OG_149",
+            "name": "Ravaging Ghoul",
+            "mana": 3
+          }
+        },
+        {
+          "player": "me",
+          "turn": 5,
+          "card": {
+            "id": "CS2_108",
+            "name": "Execute",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 6,
+          "card": {
+            "id": "EX1_008",
+            "name": "Argent Squire",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 6,
+          "card": {
+            "id": "OG_024",
+            "name": "Flamewreathed Faceless",
+            "mana": 4
+          }
+        },
+        {
+          "player": "me",
+          "turn": 6,
+          "card": {
+            "id": "NEW1_011",
+            "name": "Kor'kron Elite",
+            "mana": 4
+          }
+        },
+        {
+          "player": "me",
+          "turn": 6,
+          "card": {
+            "id": "CS2_106",
+            "name": "Fiery War Axe",
+            "mana": 2
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 7,
+          "card": {
+            "id": "AT_046",
+            "name": "Tuskarr Totemic",
+            "mana": 3
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 7,
+          "card": {
+            "id": "CS2_045",
+            "name": "Rockbiter Weapon",
+            "mana": 1
+          }
+        },
+        {
+          "player": "me",
+          "turn": 7,
+          "card": {
+            "id": "BRM_034",
+            "name": "Blackwing Corruptor",
+            "mana": 5
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 8,
+          "card": {
+            "id": "AT_053",
+            "name": "Ancestral Knowledge",
+            "mana": 2
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 8,
+          "card": {
+            "id": "LOE_018",
+            "name": "Tunnel Trogg",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 8,
+          "card": {
+            "id": "AT_052",
+            "name": "Totem Golem",
+            "mana": 2
+          }
+        },
+        {
+          "player": "me",
+          "turn": 8,
+          "card": {
+            "id": "BRM_034",
+            "name": "Blackwing Corruptor",
+            "mana": 5
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 9,
+          "card": {
+            "id": "OG_028",
+            "name": "Thing from Below",
+            "mana": 6
+          }
+        },
+        {
+          "player": "me",
+          "turn": 9,
+          "card": {
+            "id": "EX1_284",
+            "name": "Azure Drake",
+            "mana": 5
+          }
+        },
+        {
+          "player": "me",
+          "turn": 9,
+          "card": {
+            "id": "AT_017",
+            "name": "Twilight Guardian",
+            "mana": 4
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 10,
+          "card": {
+            "id": "CS2_045",
+            "name": "Rockbiter Weapon",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 10,
+          "card": {
+            "id": "AT_094",
+            "name": "Flame Juggler",
+            "mana": 2
+          }
+        },
+        {
+          "player": "me",
+          "turn": 10,
+          "card": {
+            "id": "LOE_076",
+            "name": "Sir Finley Mrrgglton",
+            "mana": 1
+          }
+        },
+        {
+          "player": "me",
+          "turn": 10,
+          "card": {
+            "id": "OG_314",
+            "name": "Blood To Ichor",
+            "mana": 1
+          }
+        },
+        {
+          "player": "me",
+          "turn": 10,
+          "card": {
+            "id": "BRM_024",
+            "name": "Drakonid Crusher",
+            "mana": 6
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 11,
+          "card": {
+            "id": "EX1_238",
+            "name": "Lightning Bolt",
+            "mana": 1
+          }
+        },
+        {
+          "player": "me",
+          "turn": 11,
+          "card": {
+            "id": "AT_017",
+            "name": "Twilight Guardian",
+            "mana": 4
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 12,
+          "card": {
+            "id": "EX1_248",
+            "name": "Feral Spirit",
+            "mana": 3
+          }
+        },
+        {
+          "player": "me",
+          "turn": 12,
+          "card": {
+            "id": "OG_312",
+            "name": "N'Zoth's First Mate",
+            "mana": 1
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 13,
+          "card": {
+            "id": "AT_087",
+            "name": "Argent Horserider",
+            "mana": 3
+          }
+        },
+        {
+          "player": "me",
+          "turn": 13,
+          "card": {
+            "id": "OG_149",
+            "name": "Ravaging Ghoul",
+            "mana": 3
+          }
+        },
+        {
+          "player": "opponent",
+          "turn": 14,
+          "card": {
+            "id": "EX1_238",
+            "name": "Lightning Bolt",
+            "mana": 1
+          }
+        }
+      ]
+    }
+  ]
+}

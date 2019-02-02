@@ -1,0 +1,18 @@
+Schedules:
+
+DONE) Download all files from hearthscry 
+2) Check if monthly file exists, and if so, delete all daily files from that month
+3) Think of a way not to ingest repeated files/records
+4) Read json files and put records into Kafka's topics
+5) Read Kafka's topics and send data both to S3 and to mongodb
+
+mongodb tables
+kafka being produced from somewhere else
+mongodb etls to bigquery
+airflow managing dataflow
+docker images for mongo, kafka, bigquery maybe, airflow, spark, s3?
+managed by github
+data being sent to amazon s3
+shell scripts for spark submit
+python for all things
+cloudera docker image for everything cloudera

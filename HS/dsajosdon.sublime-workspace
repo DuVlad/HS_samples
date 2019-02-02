@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upl",
+				"upload_to_s3"
+			],
+			[
+				"uplo",
+				"upload_file"
+			],
+			[
+				"s3",
+				"S3_BUCKET"
+			],
+			[
+				"uploa",
+				"upload_to_s3_task_params"
+			],
+			[
+				"ds",
+				"dsnodash"
+			],
+			[
+				"s3_que",
+				"s3_queries_list"
+			],
+			[
+				"json",
+				"jsonschema"
+			],
+			[
+				"task",
+				"taskGenerator"
+			],
+			[
+				"messa",
+				"message_j"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eduardo/git/BI/airflow_configs/airflow.cfg",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/drivers-dispatching_events_aws_conf.yml",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/drivers-dispatching_events_conf.yml",
+		"/home/eduardo/git/BI/helpers/BigQuery/BigQueryTables.py",
+		"/home/eduardo/git/BI/helpers/Airflow/mongo_operator.py",
+		"/home/eduardo/git/BI/datasources/appannie/AppAnnie.py",
+		"/home/eduardo/git/BI/helpers/BigQuery/Connector.py",
+		"/home/eduardo/git/BI/helpers/BigQuery/BaseClass.py",
+		"/home/eduardo/git/BI/data_flow/dags/reports/main.py",
+		"/home/eduardo/git/bigdata/dw/etl/rides/src/main/resources/fact_rides.sql",
+		"/home/eduardo/git/BI/data_modelling/facts/fact_taxi_position/fact_taxi_position.sh",
+		"/home/eduardo/git/BI/data_modelling/facts/fact_ride_taximeter/script.py",
+		"/home/eduardo/git/BI/data_modelling/facts/fact_payments/fact_payments.sh",
+		"/home/eduardo/git/BI/data_modelling/facts/fact_driver_statement.sh",
+		"/home/eduardo/git/BI/data_modelling/facts/corp_canceled_reason.py",
+		"/home/eduardo/git/BI/analysis/qaDashBoard/queries/duplicates_last_3_months.sql",
+		"/home/eduardo/git/BI/data_modelling/facts/corp_canceled_reason/corp_canceled_reason.sql",
+		"/home/eduardo/git/BI/analysis/qaDashBoard/.ipynb_checkpoints/qaNotebook-checkpoint.ipynb",
+		"/home/eduardo/git/BI/analysis/qaDashBjenkins_ridesoard/queries/all_rides_last_3_months.sql",
+		"/home/eduardo/git/BI/data_flow/dags/reports/report.py",
+		"/home/eduardo/git/BI/data_output/zendesk/passengers.py",
+		"/home/eduardo/git/BI/data_flow/dags/currencies/main.py",
+		"/home/eduardo/git/BI/helpers/BigQuery/BigQueryQuery.py",
+		"/home/eduardo/git/BI/helpers/BigQuery/killGremlins.py",
+		"/home/eduardo/git/BI/data_output/kpi/AggregateKpi.py",
+		"/home/eduardo/git/BI/helpers/Email/sendMail.py",
+		"/home/eduardo/git/BI/modules/alertsSystem/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/AlertDistributor.py",
+		"/home/eduardo/git/BI/modules/health_check/HealthCheck.py",
+		"/home/eduardo/git/BI/data_flow/dags/mongo_rides/main.py",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/competitors/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/product/config.json",
+		"/home/eduardo/git/BI/data_output/salesforce/configs.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/zendesk/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/fact_rides/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/dispatching_system/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/corporate/config.json",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/billing/config.json",
+		"/home/eduardo/git/BI/data_output/partnerAutoEmails/yoavExcel.ipynb",
+		"/home/eduardo/git/BI/helpers/BigQuery/BigQueryLoad.py",
+		"/home/eduardo/git/BI/data_flow/dags/reports/lambda/lambda_function.py",
+		"/home/eduardo/git/BI/data_flow/dags/mercadopago/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/raw_block_details/block_details.py",
+		"/home/eduardo/git/BI/data_flow/dags/drivers_sessions/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/corporate/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/databricks_rides_daily/main.py",
+		"/home/eduardo/git/bigdata/bigdata/src/main/scala/com/easytaxi/bigdata/modules/ReportGenerator.scala",
+		"/home/eduardo/git/BI/datasources/billing/SFTP/codes_return/remove_duplicates.py",
+		"/home/eduardo/git/BI/data_flow/dags/salesforce/schemas/account.json",
+		"/home/eduardo/git/BI/dw/model/facts/nps_easyplus/query.sql",
+		"/home/eduardo/git/BI/dw/model/facts/nps_responses/query.sql",
+		"/home/eduardo/git/BI/data_flow/dags/billing/main.py",
+		"/home/eduardo/git/BI/datasources/billing/BillingETL.py",
+		"/home/eduardo/git/BI/datasources/billing/mySQL/etPayOut/driver_statement_credits/unify_tables.sql",
+		"/home/eduardo/git/BI/data_flow/dags/raw_promotions/subdag_datamart.py",
+		"/home/eduardo/git/BI/datasources/surveyGizmo/SurveyGizmoResponses.py",
+		"/home/eduardo/git/BI/data_flow/dags/surveygizmo/main.py",
+		"/home/eduardo/git/BI/datasources/billing/SFTP/codes_return/etl.py",
+		"/home/eduardo/git/BI/dw/model/facts/rides_issues/query.sql",
+		"/home/eduardo/git/BI/dw/model/facts/recharge_codes/fact_recharge_codes_info.sql",
+		"/home/eduardo/git/BI/data_flow/dags/mongo_rides_8_days/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/mongo_rides_2_days/main.py",
+		"/home/eduardo/Downloads/pyjsontest.py",
+		"/home/eduardo/git/BI/dw/model/facts/rides/query.sql",
+		"/home/eduardo/git/BI/dw/model/facts/recharge_codes/query.sql",
+		"/home/eduardo/projects/kafka/producer.py",
+		"/home/eduardo/git/BI/modules/alertsSystem/alerts/billing/credit_code.sql",
+		"/home/eduardo/git/BI/data_flow/dags/mongo_rides_history/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/hourly_tasks/main.py",
+		"/home/eduardo/projects/kafka/simple.yml",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/eta_conf.yml",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/drivers_conf.yml",
+		"/home/eduardo/git/BI/data_flow/dags/salesforce/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/deploy_table_exporter/main.py",
+		"/home/eduardo/git/BI/datasources/mongoDB/rides/etl/period_conn_rides_parser.py",
+		"/home/eduardo/git/BI/datasources/mongoDB/rides/schemas/rides_schema.json",
+		"/home/eduardo/git/BI/dw/model/facts/driver_statement_credits/query.sql",
+		"/home/eduardo/git/BI/datasources/mongoDB/rides/etl/period_conn_rides_period_airflow.py",
+		"/home/eduardo/git/BI/datasources/mongoDB/rides/etl/period_conn_rides_export.py",
+		"/home/eduardo/git/BI/data_flow/dags/deploy_taxi_positions/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/yaxi_data/main.py",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/customers_conf.yml",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/influx_rides_events.yml",
+		"/home/eduardo/git/bigdata/dw/etl/table_exporter/build.sbt",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/BaseConsumer.py",
+		"/home/eduardo/git/BI/admin/bqlogExtract.py",
+		"/home/eduardo/git/BI/data_modelling/facts/fact_updater.py",
+		"/home/eduardo/git/BI/dw/model/facts/segmentation/rules_customer.sql",
+		"/home/eduardo/git/BI/data_flow/dags/passengers_segments/main.py",
+		"/home/eduardo/git/BI/data_flow/dags/drivers_segments/main.py",
+		"/home/eduardo/git/BI/dw/model/facts/segmentation/customer_segmentation_month_wo_category.sql",
+		"/home/eduardo/git/BI/dw/model/facts/segmentation/driver_segmentation_month_wo_category.sql",
+		"/home/eduardo/git/BI/dw/model/facts/segmentation/customer_segmentation_month.sql",
+		"/home/eduardo/git/BI/dw/model/facts/segmentation/rules_driver.sql",
+		"/home/eduardo/git/bigdata/messaging_system/kafka/consumers/customer_cache_consumer.py",
+		"/home/eduardo/git_temp/bigdata/messaging_system/kafka/consumers/fraud_analysis/Analyzer.py",
+		"/home/eduardo/git/BI/dw/model/dimensions/passengers/dim_passengers_temp.sql",
+		"/home/eduardo/git/BI/dw/datamarts/driver_connect_profile/main.sql",
+		"/home/eduardo/git/BI/dw/model/dimensions/passengers/passengers_rides_data.sql",
+		"/home/eduardo/git/BI/dw/model/dimensions/passengers/passengers_window_cohort.sql",
+		"/home/eduardo/git/BI/data_output/metrics/drivers_pos/main.py",
+		"/home/eduardo/git/BI/datamarts/billing_drivers_balance.py",
+		"/home/eduardo/git/api/tests/EasyPublicBundle/Controller/Company/GetCompanySubsidiaryTest.php",
+		"/home/eduardo/git/api/tests/Unit/Entity/CompanyTagsTest.php",
+		"/home/eduardo/git/api/src/EasyTaxiApi/Repository/CompanyRepository.php",
+		"/home/eduardo/git/api/src/EasyTaxiApi/Entity/CompanyTags.php",
+		"/home/eduardo/git/BI/data_modelling/dimensions/companies/companies_holding_info.sql",
+		"/home/eduardo/git/BI/dw/datamarts/kpi/rides_rating.sql",
+		"/home/eduardo/git/BI/data_flow/dags/kpis.v2/main.py",
+		"/home/eduardo/git/BI/dw/datamarts/promotions/promotions_rides_unique.sql",
+		"/home/eduardo/git/BI/dw/datamarts/promotions/promotions_rides.sql",
+		"/home/eduardo/git/BI/data_flow/dags/kpis.v2/dependencies.json",
+		"/home/eduardo/git/bigdata/dw/etl/taxi_positions/src/main/resources/fact_drivers_sessions_tmpl.sql",
+		"/home/eduardo/git/bigdata/dw/etl/taxi_positions/src/main/resources/hourly_drivers_sessions.sql",
+		"/home/eduardo/git_temp/bigdata/dw/etl/taxi_positions/src/main/resources/fact_drivers_sessions_tmpl.sql",
+		"/home/eduardo/git_temp/bigdata/dw/etl/taxi_positions/src/main/resources/hourly_drivers_sessions.sql",
+		"/home/eduardo/git/bigdata/dw/etl/taxi_positions/src/main/scala/Raw.scala",
+		"/home/eduardo/git/winehouse/docker-compose.yml",
+		"/home/eduardo/git/BI/data_flow/dags/daily_reports/main.py",
+		"/home/eduardo/git/BI/dw/datamarts/billing_drivers_balance/billing_drivers_last_transaction_balance.sql",
+		"/home/eduardo/git/BI/dw/model/dimensions/companies/boarded_by_week.sql",
+		"/home/eduardo/git/BI/dw/model/dimensions/companies/rides_all_data.sql",
+		"/home/eduardo/git/BI/data_flow/dags/daily_reports/queries/temp_analysis/multiple_ride_offer.sql",
+		"/home/eduardo/git/BI/data_flow/dags/drivers/main.py",
+		"/home/eduardo/git/BI/dw/model/dimensions/drivers/drivers_rating_moving_rides.sql",
+		"/home/eduardo/git/BI/dw/datamarts/kpi/rides_retention.sql",
+		"/home/eduardo/git/BI/dw/datamarts/kpi/rides_billing.sql",
+		"/home/eduardo/git/BI/dw/datamarts/kpi/pro_rides.sql"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dsajosdon.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 571.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,29 @@
+et:
+  fields:
+    - range_start
+    - range_end
+    - unique_users
+    - total_games
+    - games:
+      - user_hash
+      - region
+      - id
+      - mode
+      - hero
+      - hero_deck
+      - opponent
+      - opponent_deck
+      - coin
+      - result
+      - duration
+      - rank
+      - legend
+      - note
+      - added
+      - card_history:
+        - player
+        - turn
+        - card:
+          - id
+          - name
+          - mana
