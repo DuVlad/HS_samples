@@ -9,7 +9,7 @@ def exists(path):
     return r.status_code == requests.codes.ok
 
 website = 'http://files.hearthscry.com/collectobot/'
-local_dir = '/home/eduardo/personal_git/Extract/HearthScry/'
+local_dir = '/home/eduardo/personal_git/HS_samples/Extract/HearthScry/'
 first_date = datetime(2016, 6, 1)
 date = first_date
 

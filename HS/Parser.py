@@ -1,10 +1,11 @@
 from pathlib import Path
 import zipfile
-from kafka import KafkaProducer
 import argparse
 import json
 from jsonschema import validate
-
+import Producer
+import shutil
+from collections import OrderedDict
 
 
 def parser(data, objname = None, previous_output = None):
@@ -14,49 +15,37 @@ def parser(data, objname = None, previous_output = None):
     output = {}
     card_counter = 0    
     for items in data:
-        if objname:
+        if objname and previous_output:
+            output['table'] = objname 
             for key in eval(objname):
                 output[key] = previous_output[key]
             if 'card_counter' not in eval(objname):
                 output['card_counter'] = card_counter
                 card_counter+=1
-        if type(data) == dict:
+        else:
+            output['table'] = 'batch'
+        #if type(data) == dict:
+        if isinstance(data, dict):
             items = items.encode('ascii')
-            if type(data[items]) not in [list,dict]:
+            if not isinstance (data[items], list) and not isinstance(data[items], dict):
                 output[items] = str(data[items]).encode('ascii')
             else:
                 parser(data[items], items, output)
-        elif type(data) == list:
+        elif isinstance(data, list):
             for item in items:
                 item = item.encode('ascii')
-                if type(items[item]) not in [list,dict]:
+                if not isinstance (items[item], list) and not isinstance(items[item], dict):
                     output[item] = str(items[item]).encode('ascii')
                 else:
                     parser(items[item], item, output)
             print output
-    if type(data) == dict:
+            Producer.produce(output['table'], output)
+    if isinstance(data, dict):
         print output
+        Producer.produce(output['table'],output)
                         
     
-
 def main():
-    #parser = argparse.ArgumentParser(description='Rides events aggregate.')
-
-    #parser.add_argument('-t', '--topic', metavar='<topic>', type=str,
-    #                    required=True,
-    #                    help='Kafka topic name.')
-
-    #parser.add_argument('-K', '--kafka_host', metavar='<host>', type=str,
-    #                    required=True,
-    #                    help='Kafka host list.')
-
-    #args = parser.parse_args()
-
-    #topic = args.topic
-    #host = args.kafka_host
-    
-    #producer = KafkaProducer(bootstrap_servers=host)
-    
     #while True:
     zippath = Path('/home/eduardo/personal_git/HS_samples/Extract/HearthScry/').glob('**/*.zip')
     zips = [x for x in zippath]
@@ -68,7 +57,7 @@ def main():
         files = [x for x in filepath]
         for f in files:
             with open(str(f)) as jsonfile:
-                data = json.load(jsonfile)
+                data = json.load(jsonfile, object_pairs_hook=OrderedDict)
         with open('/home/eduardo/personal_git/HS_samples/HS/hearthscryschema.json') as schemafile:
                 schema = json.load(schemafile)
         try:
@@ -76,17 +65,9 @@ def main():
         except Exception as e:
             print 'error'
         parser(data)
+        shutil.move(str(z), '/home/eduardo/personal_git/HS_samples/Data/HearthScry/')
+        shutil.rmtree(filedir)
 
-        
-
-        #for finfo in zipped.infolist():
-        #    ifile = zipped.open(finfo)
-        #    line_list = ifile.readlines()
-        #    print line_list
-
-        #message = raw_input("Input message:")
-        #response = producer.send(topic, message)
-        #print response
 
 if __name__ == "__main__":
     main()

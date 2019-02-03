@@ -190,14 +190,14 @@ def neongenesisevangelionparsa2(data, objname = None, previous_output = None):
             if type(data[items]) not in [list,dict]:
                 output[items] = str(data[items]).encode('ascii')
             else:
-                neongenesisevangelionparsa2(data[items], items, output)
+                neongenesisevangelionparsa(data[items], items, output)
         elif type(data) == list:
             for item in items:
                 item = item.encode('ascii')
                 if type(items[item]) not in [list,dict]:
                     output[item] = str(items[item]).encode('ascii')
                 else:
-                    neongenesisevangelionparsa2(items[item], item, output)
+                    neongenesisevangelionparsa(items[item], item, output)
             print output
     print output
 
