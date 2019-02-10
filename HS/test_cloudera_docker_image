@@ -28,3 +28,12 @@ docker-compose -f zk_single_single.yml up
 kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic numtest --create --partitions 3 --replication-factor 1
 
 mongo localhost/numtest
+
+running mongo connect :
+connect-standalone.sh connect-standalone.properties mongo.properties
+
+connect-standalone.properties must contain the plugin.path which contains the files downloaded from confluent (connector)
+mongo.properties must contain in the name of the collection the localhost:27017/database
+
+mongo localhost/database checks the database
+db.collection.find() search through records in collection
