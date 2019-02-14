@@ -1,4 +1,4 @@
-docker run -i -t -p 8020:8020 -p 8888:8888 -p 11000:11000 -p 11443:11443 -p 9090:9090 -p 8088:8088 -p 19888:19888 -p 8983:8983 -p 16000:16000 -p 16001:16001 -p 42222:22 -p 8042:8042 -p 60010:60010 caioquirino/docker-cloudera-quickstart
+docker run -i -t -p 8020:8020 -p 8888:8888 -p 11000:11000 -p 11443:11443 -p 9090:9090 -p 8088:8088 -p 19888:19888 -p 8983:8983 -p 16000:16000 -p 16001:16001 -p 42222:22 -p 8042:8042 -p 60010:60010 -p 50070:50070 -p 9000:9000 caioquirino/docker-cloudera-quickstart
 beeline --incremental=true
 !connect jdbc:hive2://localhost:10000/default
 
@@ -22,6 +22,7 @@ set yarn.nodemanager.resource.memory-mb=256;
 set yarn.scheduler.maximum-allocation-mb=512;
 insert into table test values (1);
 
+1)starting zookeeper
 cd personal_git/docker/dockermfdknfdk/
 docker-compose -f zk_single_single.yml up
 
@@ -37,3 +38,5 @@ mongo.properties must contain in the name of the collection the localhost:27017/
 
 mongo localhost/database checks the database
 db.collection.find() search through records in collection
+
+docker run -d -p 8080:8080 puckel/docker-airflow webserver

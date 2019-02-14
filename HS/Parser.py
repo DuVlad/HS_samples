@@ -6,6 +6,7 @@ from jsonschema import validate
 import Producer
 import shutil
 from collections import OrderedDict
+import pubsub_publisher
 
 
 def parser(data, objname = None, previous_output = None):
@@ -39,19 +40,21 @@ def parser(data, objname = None, previous_output = None):
                 else:
                     parser(items[item], item, output)
             print output
-            Producer.produce(output['table'], output)
+            #Producer.produce(output['table'], output)
+            pubsub_publisher.produce(output['table'], output)
     if isinstance(data, dict):
         print output
-        Producer.produce(output['table'],output)
+        #Producer.produce(output['table'],output)
+        pubsub_publisher.produce(output['table'], output)
                         
     
 def main():
     #while True:
     zippath = Path('/home/eduardo/personal_git/HS_samples/Extract/HearthScry/').glob('**/*.zip')
     zips = [x for x in zippath]
-    for z in zips:
-        filedir = str(z).replace('.zip','')
-        with zipfile.ZipFile(str(z), 'r') as zip_ref:
+    for zip in zips:
+        filedir = str(zip).replace('.zip','')
+        with zipfile.ZipFile(str(zip), 'r') as zip_ref:
             zip_ref.extractall(filedir)
         filepath = Path(filedir).glob('**/*.json')
         files = [x for x in filepath]
@@ -65,7 +68,7 @@ def main():
         except Exception as e:
             print 'error'
         parser(data)
-        shutil.move(str(z), '/home/eduardo/personal_git/HS_samples/Data/HearthScry/')
+        shutil.move(str(zip), '/home/eduardo/personal_git/HS_samples/Data/HearthScry/')
         shutil.rmtree(filedir)
 
 

@@ -14,6 +14,6 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
 a=1000
 while True:
     data = {'number': a}
-    producer.send('numtest',value=data)
+    producer.send('hdfs_test',value=data)
     a+=1
     sleep(5)

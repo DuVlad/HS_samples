@@ -14,6 +14,7 @@ import re
 def produce(topic, message):
     producer = KafkaProducer(bootstrap_servers='127.0.0.1:9092')
     print topic
+    message = json.dumps(message)
     print bytes(message)
     producer.send(topic, bytes(message))
     producer.flush()
